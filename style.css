@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: #1b1c1f;
+}
+button {
+  padding: 15px 40px;
+  border: 2px solid #191a1e;
+  border-radius: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #858585;
+  background-color: #191a1e;
+  box-shadow: 0 0 0 #0e0e0e, 0 0 0 #5f5e5e40, inset 1.5px 1.5px 3px #0e0e0e, inset -1.5px -1.5px 3px #5f5e5e;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+button:hover {
+  box-shadow: 1.5px 1.5px 3px #0e0e0e, -1.5px -1.5px 3px #5f5e5e40, inset 0 0 0 #0e0e0e, inset 0 0 0 #5f5e5e;
+}
